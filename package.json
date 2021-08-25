@@ -1,7 +1,7 @@
 {
   "name": "jwt-rol-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Json-web-token rest Api",
   "main": "index.js",
   "scripts": {
     "build": "babel src --out-dir build",
@@ -9,7 +9,7 @@
     "start": "node build/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Fabian-Ome",
   "license": "ISC",
   "dependencies": {
     "bcryptjs": "^2.4.3",
