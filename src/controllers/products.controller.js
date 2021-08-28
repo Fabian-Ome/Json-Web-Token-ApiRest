@@ -16,7 +16,9 @@ export const getProducts = async (req, res) => {
     res.json(products);
 }
 
-export const getProductById = (req, res) => {
+export const getProductById = async (req, res) => {
+    const produc = await product.findById(req.params.productId)
+    res.status(200).json(produc);
 
 }
 
