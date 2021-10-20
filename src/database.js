@@ -7,4 +7,4 @@ mongoose.connect("mongodb://localhost/companydb", {
     useCreateIndex: true
 })
     .then(db => console.log('Db is connected'))
-    .catch(error => console.log(error))
+    .catch(error => console.log(console.log('hola'), error))
